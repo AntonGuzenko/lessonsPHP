@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RunQvery</title>
+    <link href="../css/phpMM.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="header"><h1>PHP&MySQL: The Missing Manual</h1></div>
+<div id="example">Пример 4.2</div>
+<div id="content">
+    <h1>Средство запуска SQL-запросов</h1>
+    <p>Введите свой SQL-запрос в это поле:</p>
+    <form action="scripts/run_query.php" method="post">
+        <fieldset>
+            <textarea id="query_text" name="query"
+                      cols="65" rows="8"></textarea>
+        </fieldset>
+        <br/>
+        <fieldset class="center">
+            <input type="submit" value="запуск запроса"/>
+            <input type="reset" value="очистка запроса"/>
+
+        </fieldset>
+
+    </form>
+</div>
+<div id="footer"></div>
+
+</body>
+</html>
